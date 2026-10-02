@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "source_release": "stale-clock-2026-09-29-1851c0f4e074b166",
+  "policy_version": "stale-clock-v5-20260929-3",
+  "observed_at": "2026-09-29T09:46:12.309Z",
+  "reference_date": "2026-08-31",
+  "scope": "CURRENT_OBSERVED_SNAPSHOT_EVALUATED_AT_PRIOR_MONTH_END_NOT_HISTORICAL_AS_OF",
+  "upstream": "https://clinicaltrials.gov/",
+  "metrics": {
+    "A": {
+      "count": 377,
+      "day": 224,
+      "month": 153,
+      "denominator": 3762,
+      "percentage": 10.02126528442318,
+      "percentage_status": "MEASURED"
+    },
+    "B": {
+      "count": 226,
+      "day": 132,
+      "month": 94,
+      "denominator": 377,
+      "percentage": 59.94694960212201,
+      "percentage_status": "MEASURED"
+    },
+    "C": {
+      "count": 82,
+      "day": 46,
+      "month": 36,
+      "denominator": 377,
+      "percentage": 21.750663129973475,
+      "percentage_status": "MEASURED"
+    },
+    "D": {
+      "count": 331,
+      "day": 202,
+      "month": 129,
+      "denominator": 552,
+      "percentage": 59.96376811594203,
+      "percentage_status": "MEASURED",
+      "date_quality": {
+        "available_day": 338,
+        "available_month": 214,
+        "missing": 0,
+        "invalid": 0,
+        "unsupported_year": 0,
+        "precision_mismatch": 0,
+        "basis_missing": 0,
+        "basis_invalid": 0
+      }
+    }
+  },
+  "wall": {
+    "exact_day_records": 224,
+    "excluded_month_records": 153,
+    "elapsed_days": 54361,
+    "year_divisor": 365.25,
+    "combined_years": 148.8,
+    "median_days": 153,
+    "longest_days": 2650
+  },
+  "notices": [
+    "The checked record still lists this estimated date.",
+    "Registered completion dates are not promises of results announcements.",
+    "This is a current-state observation, not a version history or a finding about any company.",
+    "All four metrics use the previous calendar month end as their calculation reference. This is not a reconstruction of the registry state at that earlier date.",
+    "All four metrics use interval end ≤ reference date; B and C apply this inclusive comparison to their specified twelve-month cutoff.",
+    "It is not a finding that any trial is delayed or out of compliance. Sponsors may update their records at any time.",
+    "The source timestamp has no verified timezone. Its written calendar date is preserved separately from the calculation reference."
+  ],
+  "next_measurement_date": "2026-10-26",
+  "next_monthly_reference_date": "2026-10-31"
+}

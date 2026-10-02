@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "provider": "ClinicalTrials.gov API v2",
+  "processed_at": "2026-09-29T09:46:12.309Z",
+  "observed_not_historical_as_of": true,
+  "transformation": "Allowlisted registry identifiers, organization sponsor names, dates, status and source links; calendar-derived flags and elapsed days. No contacts, locations or protocol narrative included.",
+  "source_timestamp_timezone": "UNAVAILABLE",
+  "source_release": "stale-clock-2026-09-29-1851c0f4e074b166",
+  "files": [
+    {
+      "path": "data/2026-09-29/data.csv",
+      "bytes": 112988,
+      "sha256": "be429676b07fa0bd6077311c8368110b79bf43aadc9806c8d58fbf84a821cff5"
+    },
+    {
+      "path": "data/2026-09-29/data.csv.sha256",
+      "bytes": 75,
+      "sha256": "4acdfa0b4bdb398c5f7b78bc0b02d5438f8edbff5b3a4873ca68b5a9628bac0d"
+    },
+    {
+      "path": "data/2026-09-29/snapshot.json",
+      "bytes": 5406410,
+      "sha256": "f4cc0e6c8634813841cfae23cfed41dcf2d1e3abda302c8f6396c8047e8e7096"
+    },
+    {
+      "path": "data/2026-09-29/report-summary.json",
+      "bytes": 2464,
+      "sha256": "605c4ecf1cd68a962db70316abaa1c05884ca14c9db117a765741c8fff9b5441"
+    },
+    {
+      "path": "assets/wall.png",
+      "bytes": 123870,
+      "sha256": "9caa0d06ac9b0e39fe745cfe3daa927313b614a358bf63440d91fc6d83ef3d01"
+    }
+  ],
+  "data_rights": "Upstream ClinicalTrials.gov terms retained; proposed CC BY 4.0 limited to ORION original contributions."
+}

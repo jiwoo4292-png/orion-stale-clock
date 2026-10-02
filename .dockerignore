@@ -1,0 +1,17 @@
+*
+!Dockerfile
+!package.json
+!bin/
+!bin/**
+!src/
+!src/**
+!data/
+!data/**
+!LICENSE
+!LICENSE-DATA.md
+!NOTICE-SOURCES.md
+!METHODOLOGY.md
+!README.md
+!CONTRIBUTING.md
+!assets/
+!assets/**

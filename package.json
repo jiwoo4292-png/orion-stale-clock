@@ -1,0 +1,15 @@
+{
+  "name": "orion-stale-clock",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A reproducible current-state measurement of registered estimated clinical trial dates.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "orion-stale-clock": "bin/orion-stale-clock.js" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/orion-stale-clock.js",
+    "reproduce": "node bin/orion-stale-clock.js reproduce --input data/2026-09-29/snapshot.json --compare-csv data/2026-09-29/data.csv"
+  },
+  "files": ["bin", "src", "test", "data", "assets", "README.md", "METHODOLOGY.md", "NOTICE-SOURCES.md", "LICENSE", "LICENSE-DATA.md", "CONTRIBUTING.md", "Dockerfile", ".dockerignore"]
+}

@@ -1,0 +1,6 @@
+Source: ORION Biotech Observatory (orionbiotechai.com), observed 2026-09-29
+Release: https://www.orionbiotechai.com/reports/stale-clock/2026-09-29
+Source registry: ClinicalTrials.gov
+Reference date: 2026-08-31
+
+data.attributed.csv is a derived 20-column citation copy. Its first 19 columns and 377 records match data.csv. Use original data.csv for the strict 19-column verification/reproduction CLI. Cite modifications and preserve original source rights.
