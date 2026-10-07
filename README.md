@@ -130,3 +130,19 @@ ORION endorsement. No proprietary use restriction is added to MIT or CC BY.
 Read `CONTRIBUTING.md`; keep each observation's original source and actual time.
 Run `npm test`. Report corrections without silently rewriting old dated releases.
 Never submit private credentials, patient information or registry contact lists.
+
+
+## Summary chart review candidate
+
+Reproduce the proposed frozen summary charts offline with:
+
+```sh
+node bin/reproduce-summary-charts.js --out results/summary-charts-review
+```
+
+Use a new output directory. The command verifies both the selected CSV and the
+full 3,762-record snapshot; no requests or source rewrites occur. It includes
+accessible tables, calendar-month boundary definitions and a 1200×630 SVG.
+The “Other records” complement label and new presentation remain a Draft for
+Claude review, not a claim that all complementary dates are in the future.
+See [SUMMARY-CHARTS.md](SUMMARY-CHARTS.md) for the precision and provenance rules.
